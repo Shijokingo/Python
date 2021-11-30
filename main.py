@@ -96,6 +96,8 @@ print("\n")
 
 print(6. // 4)
 
+
+
 print("Arithmetic Operator -+- Addition\n")
 print(6 + 4)
 print(6.+ 4)
@@ -115,3 +117,17 @@ print("\n")
 print("Sub Expression\n")
 print(2*(2+3))
 print("\n")
+
+
+print("\n")
+amount_of_apple=2;
+cost_of_apple=5;
+COST_OF_APPLE=8;
+print (amount_of_apple * cost_of_apple)
+print("\n")
+print (amount_of_apple * COST_OF_APPLE)
+cost_of_apple = cost_of_apple + 5
+print (amount_of_apple * cost_of_apple)
+
+cost_of_apple += 5
+print (amount_of_apple * cost_of_apple)
