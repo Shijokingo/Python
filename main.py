@@ -73,3 +73,45 @@ print("\n")
 print("Sub Expression\n")
 print(2*(2+3))
 print("\n")
+
+print(2 * 3 ** 3 * 4)
+print("\n")
+print(13 / 4 + 13 % 4)
+print("\n")
+print(2 ** 3.)
+print("\n")
+print(10 - 6 ** 2 / 9 * 10 + 1)
+
+print("\n")
+x = 10 / 4
+y = 5 / 2.0
+print (x + y)
+print("\n")
+
+print(10 / 2)
+print("\n")
+
+print(2*(2+3))
+print("\n")
+
+print(6. // 4)
+
+print("Arithmetic Operator -+- Addition\n")
+print(6 + 4)
+print(6.+ 4)
+print(6.+ 4.)
+print("\n")
+
+print("Arithmetic Operator - Subtract\n")
+print(6 - 4)
+print(6.- 4)
+print(6.- 4.)
+print("\n")
+
+print("Operator Hierarchy\n")
+print(10 - 6 ** 2 / 9 *10 + 1)
+print("\n")
+
+print("Sub Expression\n")
+print(2*(2+3))
+print("\n")
