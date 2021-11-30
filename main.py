@@ -131,3 +131,11 @@ print (amount_of_apple * cost_of_apple)
 
 cost_of_apple += 5
 print (amount_of_apple * cost_of_apple)
+
+#Welcome to Python Programming
+
+#x = 5
+#y = 6
+z = 7
+print(x+y+z)
+
