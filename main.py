@@ -139,3 +139,81 @@ print (amount_of_apple * cost_of_apple)
 z = 7
 print(x+y+z)
 
+print(int(15.5)-10)
+print ("ha" * -1)
+
+#Num = input("Enter a Number: ") 
+print ("Num" * 3 )
+
+
+
+#Input Function & Type Cast
+#age =input("My age is: ")
+print ("age")
+
+#inputString = input('Enter a string: ')
+print("inputString"*2)
+
+print(int(15.5)-10)
+
+#Comparison Operators
+x = 6
+y = 7
+print(x != y)
+print("\n")
+
+min_score = 13
+score = 13
+
+print(score > min_score)
+print(score <= min_score)
+
+print(2 < 4)
+
+y = 20
+#x = y += 3
+print(x)
+
+print('python'>'Python')
+
+a = 5
+b = 10
+if b > a:
+    print("b is greater than a")
+    
+x = 0
+a = 6
+b = 6
+if a > 0:
+    if b < 0: 
+        x = x + 6 
+    elif a > 6:
+        x = x + 5
+    else:
+        x = x + 4
+else:
+    x = x + 3
+
+print(x)
+
+
+
+a = 5
+b = 10
+if b < a:
+  print("a is greater than b")
+elif a == b:
+  b = 5
+  print("a and b are equal")
+else:
+  print("b is greater than a")
+  
+  
+x = 3
+if ( x == 0 ):
+  print("Am I here?")
+elif ( x == 3 ):
+  print("Or here?")
+print("Or over here?")  
+ 
+ 
