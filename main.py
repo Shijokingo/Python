@@ -425,4 +425,55 @@ for i, j in enumerate(list1):
 
 print("\n")
 
+my_list = [0, 1, 2, 3, 4]
+print(my_list[-1])
+
+
+print("\n")
+my_list = [0, 1, 2, 3, 4]
+my_list.append("python")
+print(my_list[2:])
+
+print("\n")
+
+my_list = [0, 1, 2, 3, 4]
+print(my_list[::3])
+
+print("\n")
+my_list = [0, 1, 2, 3, 4]
+print(my_list[::-1])
+
+print("\n")
+my_list = [0, 1, 2, 3, 4]
+my_list.append("python")
+b = my_list[1:]
+print(b)
+print("\n")
+my_list = [0, 1, 2, 3, 4]
+print(my_list[::2])
+
+
+print("\n")
+list1 = [1, 66, "python", [11, 55, "cat"], [ ], 2.22, True]
+print(list1[2:4])
+
+
+print("\n")
+list1 = [1, 66, "python", [11, 55, "cat"], [ ], 2.22, True]
+print(list1[0:4])
+
+print("\n")
+my_list = [0, 1, 2, 3, 4]
+print(my_list[2:4])
+print("\n")
+
+
+print("\n")
+
+
+
+print("\n")
+
+list1 = [1, 66, "python", [11, 55, "cat"], [ ], 2.22, True]
+print(list1.upper())
 
