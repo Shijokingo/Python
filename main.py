@@ -371,5 +371,58 @@ for number in values:
 
 print(sum)
 print("\n")
- 
- 
+
+#List Contd
+
+letters = ["A", "B", "C", "D", "E"]
+print(letters[1:])
+print("\n")
+list1=[]*2
+list1=[]
+list1=["USA","Canada","India"]
+
+print("\n")
+list1 = [[1,2,3,2,5],[4,5,6,7],[8,9,10]]
+for i in list1:
+      if len(i)==3:
+        print(i)
+print("\n")
+list1 = [10, 11, 12, 13, 14]
+print(list1[0])
+
+print("\n")
+list1 = [1, 2, 3, 4]
+for index, j in enumerate(list1):
+     print(index, j)
+
+print("\n")
+list1 = [10, 11, 12, 13, 14]
+list1.append(15)
+print(list1)
+
+
+print("\n")
+list1 = [10, 11, 12, 13, 14]
+print(list1[::1])
+
+
+print("\n")
+list1 = [[1,2,3,2,5],[4,5,6,7],[8,9,10]]
+for i in list1:
+      if len(i)==4:
+        print(i)
+
+print("\n")
+list1=[4,0,7,1]
+print(list1[::-1])
+
+
+print("\n")
+list1 = [1, 2, 3, 4]
+for i, j in enumerate(list1):
+     print(i, j)
+
+
+print("\n")
+
+
