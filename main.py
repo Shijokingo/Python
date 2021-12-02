@@ -289,5 +289,87 @@ if ( x == 0 ):
 elif ( x == 3 ):
   print("Or here?")
 print("Or over here?")  
+
+#List
+list1 = [10, 20, 30, 40, 50]
+list1.append(60)
+print(list1)
+
+print("\n")
+
+list1=['h', 'e', 'l', 'l', 'o']
+print(len(list1))
+
+
+print("\n")
+list1=['UK','India','Canada']
+list1.insert(1,8)
+print(list1)
+print("\n")
+
+ages = [56, 72, 24, 46]
+ages.sort()
+print(ages)
+print("\n")
+
+num = [4, 4, 3, 1]
+num.sort()
+print(num)
+print("\n")
+
+list1=["Go","Java","C","Rust"]
+print(min(list1))
+print("\n")
+
+list1=["Go","Java","C","Python"]
+print(max(list1))
+print("\n")
+
+list1 = [4, 4, 3, 1]
+list1.pop(2)
+print(list1)
+print("\n")
+
+for x in [0, 1, 1, 3]:
+    for y in [0, 2, 1, 2]:
+            print('*')
+
+print("\n")
+
+sum = 0
+values = [2,9,1,7]
+for number in values:
+    sum += number
+
+print(sum)
+
+print("\n")
+
+for x in [0, 2, 1, 3]:
+    for y in [0, 4, 1, 2]:
+            print('*')
+
+print("\n")
+
+for letter in 'KodeKloud':
+    if letter == 'u':
+        continue
+    print('Letter : ' + letter)
+
+print("\n")
+
+for letter in 'KodeKloud':
+    if letter == 'e':
+        continue
+    print('Letter : ' + letter)
+print("\n")
+
+sum = 0
+values = [2,9,1,7]
+for number in values:
+    sum = sum + number
+
+print(sum)
+print("\n")
  
  
