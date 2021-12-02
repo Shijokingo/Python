@@ -197,6 +197,80 @@ else:
 print(x)
 
 
+is_hungry = False
+if(not is_hungry):
+  print("You are not hungry")
+else:
+  print("You are hungry")
+print("\n")
+
+x = 6
+y = 7
+print(x == y)
+print("\n")
+
+is_hungry = True
+if(not is_hungry):
+  print("You are not hungry")
+else:
+  print("You are hungry")
+print("\n")  
+
+#BitWise Operators & ~ | ^
+
+print(bin (15))
+print("\n")
+print(bin (22))
+print("\n")
+print(15 & 22)
+print("\n")
+print(15 | 22)
+print("\n")
+print(~22)
+print("\n")
+print(15 ^ 22)
+#print(15 ~ 22)
+
+print("\n")
+print(22 >> 1)
+print(22 >> 2)
+print(22 >> 3)
+print(22 >> 4)
+
+
+print("\n")
+print(22 << 1)
+print(22 << 2)
+print(22 << 3)
+print(22 << 4)
+print("\n")
+
+print(int(1001))
+
+print("\n")
+a = 20
+b = 5
+print("a | b =", a | b)
+
+
+print("\n")
+list1 = [10, 11, 12, 13, 14]
+print(list1[::3])
+
+print("\n")
+list1=[2,5,3,1]
+print(list1[::-1])
+print("\n")
+
+#list1=[]+2
+
+#list1=[] ++
+
+list1 = [1, 2, 3, 4, 5]
+list1[0] = 10
+print(list1)
+
+
 
 a = 5
 b = 10
