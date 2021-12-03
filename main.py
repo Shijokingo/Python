@@ -458,6 +458,179 @@ list1 = [1, 66, "python", [11, 55, "cat"], [ ], 2.22, True]
 print(list1[2:4])
 
 
+list1=[3,4,6,1,2]
+list2=list1
+list1[0]=9
+print(list2)
+
+
+print("\n")
+my_list = [0, 3, 4, 1, 2]
+print(my_list.index(1))
+
+print("\n")
+list1=[3,4,6,1,2]
+list2=list1
+list1[1]=9
+print(list2)
+
+print("\n")
+countries = ["USA", "Canada", "India"]
+countries[0], countries[1] = countries[1], countries[0]
+print(countries)
+
+
+print("\n")
+list1 = [0, 3, 4, 1, 2]
+list1[2:5]=[8,9]
+print(list1)
+
+
+print("\n")
+Li = ['A','C','b', 1, 3, 4]
+print(Li)
+
+
+print("\n")
+my_list = [0, 1, 2, 3, 4]
+print(my_list.index(2))
+
+
+print("\n")
+list1 = [0, 3, 4, 1, 2]
+list1[1]=[8,9]
+print(list1)
+
+
+
+print("\n")
+list1 = [0, 3, 4, 1, 2]
+list1[2:4]=[1,2]
+print(list1)
+
+
+
+print("\n")
+(4, 6) not in [(4, 7), (5, 6), "hello"]
+
+
+
+print("\n")
+a = []
+for i in range(5):
+    a.append([])
+    for j in range(5):
+        a[i].append(j)
+print(a[2][3])
+
+
+print("\n")
+countries = [['Egypt', 'USA', 'India'],
+       ['Dubai', 'America', 'Spain'], 
+       ['London', 'England', 'France']]
+countries2  = [country for sublist in countries for country in 
+                       sublist if len(country) < 6]
+print(countries2)
+
+print("\n")
+a = []
+for i in range(2):
+    a.append([])
+    for j in range(2):
+        a[i].append(j)
+
+print(a)
+
+
+print("\n")
+matrix = [[0, 1, 2], [0, 1, 2], [0, 1, 2]]
+
+matrix2 = []
+
+for submatrix in matrix:
+  for val in submatrix:
+    matrix2.append(val)
+
+print(matrix2[2])
+
+
+print("\n")
+matrix = [[j for j in range(3)] for i in range(3)] 
+print(matrix[2][1])
+print("\n")
+
+a = []
+for i in range(5):
+    a.append([])
+    for j in range(5):
+        a[i].append(j)
+
+print(a[3][3])
+
+print("\n")
+matrix = [[0, 1, 2], [0, 1, 2], [0, 1, 2]]
+
+matrix2 = []
+
+for submatrix in matrix:
+  for val in submatrix:
+    matrix2.append(val)
+
+print(matrix2[0])
+
+countries = [['Egypt', 'USA', 'India'], ['Dubai', 'America', 'Spain'], ['London', 'England', 'France']]
+countries2  = [country for sublist in countries for country in sublist if len(country) < 4]
+print(countries2)
+
+matrix = [[j for j in range(3)] for i in range(3)] 
+print(matrix[1][2])
+
+matrix = [[j for j in range(4)] for i in range(4)] 
+print(matrix[3][1])
+
+#Nested List 3D
+matrix = [[[k for k in range(3)] for j in range(3)] for i in range(3)]
+print(matrix[2][1])
+
+matrix = [[[k for k in range(3)] for j in range(3)] for i in range(3)]
+print(matrix[1][2])
+
+matrix = [[[k for k in range(3)] for j in range(3)] for i in range(3)]
+print(matrix[0][0][1])
+
+matrix = [[[0, 1, 2], [0, 1, 2], [0, 1, 2]], [[0, 1, 2], [0, 1, 2], [0, 1, 2]], [[0, 1, 2], [0, 1, 2], [0, 1, 2]]]
+
+matrix2 = []
+
+for submatrix in matrix:
+  for val in submatrix:
+    matrix2.append(val)
+
+print(matrix2[2][0])
+
+
+matrix = [[[0, 1, 2], [0, 1, 2], [0, 1, 2]], [[0, 1, 2], [0, 1, 2], [0, 1, 2]], [[0, 1, 2], [0, 1, 2], [0, 1, 2]]]
+
+matrix2 = []
+
+for submatrix in matrix:
+  for val in submatrix:
+    matrix2.append(val)
+
+print(matrix2[2][2])
+
+
+matrix = [[[0, 1, 2], [0, 1, 2], [0, 1, 2]], [[0, 1, 2], [0, 1, 2], [0, 1, 2]], [[0, 1, 2], [0, 1, 2], [0, 1, 2]]]
+
+matrix2 = []
+
+for submatrix in matrix:
+  for val in submatrix:
+    matrix2.append(val)
+
+print(matrix2[2])
+
+
 print("\n")
 list1 = [1, 66, "python", [11, 55, "cat"], [ ], 2.22, True]
 print(list1[0:4])
