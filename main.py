@@ -631,6 +631,246 @@ for submatrix in matrix:
 print(matrix2[2])
 
 
+print ("Hello World!");
+x = 0
+a = 6
+b = 6
+if a > 0:
+    if b < 0: 
+        x = x + 6 
+    elif a > 6:
+        x = x + 5
+    else:
+        x = x + 4
+else:
+    x = x + 3
+
+print(x)
+
+def fullname_func(fname, lname):
+  print(fname + " " + lname)
+
+fullname_func("John", "Mark")
+
+a = (10, 20, 30, 40, 50)
+a = a[::-1]
+print(a)
+
+testdict = {'brand': 'oppo', 'ram': '3', 'Os': 'Android', 'year': 2020}
+del testdict['brand']
+print(testdict)
+
+
+matrix = [[[0, 1, 2], [0, 1, 2], [0, 1, 2]], [[0, 1, 2], [0, 1, 2], [0, 1, 2]], [[0, 1, 2], [0, 1, 2], [0, 1, 2]]]
+
+matrix2 = []
+
+for submatrix in matrix:
+  for val in submatrix:
+    matrix2.append(val)
+
+print(matrix2[2][2])
+
+list1 = [1, 66, "python", [11, 55, "cat"], [ ], 2.22, True]
+#print(list1.upper())
+
+
+def get_even_func(numbers):
+    even_numbers = [num for num in numbers if not num % 2]
+    return even_numbers
+
+get_even_func([1, 2, 3, 4, 5, 6])
+
+
+my_list = [0, 1, 2, 3, 4]
+my_list.append("python")
+print(my_list[2:])
+
+
+countries = ["USA", "Canada", "India"]
+countries[0], countries[1] = countries[1], countries[0]
+print(countries)
+
+
+i = 1
+x = 3
+sum = 0
+while ( i <= x ):
+ sum += i
+ i += 1
+print(sum)
+
+matrix = [[j for j in range(3)] for i in range(3)] 
+print(matrix[1][2])
+
+
+name = "Sally"# employee name
+ 
+data = "#123" 
+print (name+data)
+
+
+matrix = [[[0, 1, 2], [0, 1, 2], [0, 1, 2]], [[0, 1, 2], [0, 1, 2], [0, 1, 2]], [[0, 1, 2], [0, 1, 2], [0, 1, 2]]]
+
+matrix2 = []
+
+for submatrix in matrix:
+  for val in submatrix:
+    matrix2.append(val)
+
+print(matrix2[2])
+
+print('\n')
+def my_function():
+  def my_inner_function():
+    x = 20
+  print(x)
+  my_inner_function()
+
+my_function()
+
+
+
+testdict = {
+  "brand": "Samsung",
+  "ram": "3",
+  "Os": "Android",
+  "year": 2020
+}
+
+print(testdict.keys())
+
+
+list1 = [1, 2, 3, 4, 5]
+list1[0] = 10
+print(list1)
+
+print('\n')
+
+min_score = 13
+score = 13
+
+print(score > min_score)
+print(score <= min_score)
+
+print('\n')
+
+list1 = [[1,2,3,2,5],[4,5,6,7],[8,9,10]]
+for i in list1:
+      if len(i)==3:
+        print(i)
+        
+        
+print(2 * 3 ** 3 * 4)
+
+matrix = [[0, 1, 2], [0, 1, 2], [0, 1, 2]]
+
+matrix2 = []
+
+for submatrix in matrix:
+  for val in submatrix:
+    matrix2.append(val)
+
+print(matrix2[2])
+
+
+def my_function():
+  x = 20
+  def my_inner_function():
+    print(x)
+  my_inner_function()
+my_function()
+
+
+print(type(100_25))
+
+print('\n')
+
+testdict = {
+  "brand": "apple",
+  "ram": "3",
+  "year": 2020,
+  "year": 2021
+}
+
+print(testdict)
+
+list1 = [4, 4, 3, 1]
+list1.pop(2)
+print(list1)
+
+print('\n')
+
+x = 1
+while ( x <= 5 ):
+  x += 1
+print(x)
+
+print('\n')
+
+matrix = [[[k for k in range(3)] for j in range(3)] for i in range(3)]
+print(matrix[1][2])
+
+print('\n')
+
+x = 0o11
+print(x)
+y = 0x12b
+print(y)
+z = 6
+print(x, y, z)
+
+
+a = []
+for i in range(5):
+    a.append([])
+    for j in range(5):
+        a[i].append(j)
+
+print(a[2][3])
+
+
+def double_list(numbers):
+  return 2 * numbers
+
+numbers = [1, 2, 3]
+print(double_list(numbers))
+
+a=20
+print(a)
+
+print('\n')
+
+a = 0
+def add_one(a):
+	return a+1
+
+result = add_one(a)
+print(result)
+
+
+
+def myfunc():
+  a = 20
+
+myfunc()
+print(a)
+
+print('\n')
+
+
+print('My age is ' + 25)
+
+
+def multi_func():
+  result = int(input()) * 5
+  return result     
+
+print(result)
+
+
+
+
 print("\n")
 list1 = [1, 66, "python", [11, 55, "cat"], [ ], 2.22, True]
 print(list1[0:4])
